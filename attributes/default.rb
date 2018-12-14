@@ -1,5 +1,3 @@
-
-
 # prevent a newer client "updating" to an older client
 default['chef_client_updater']['prevent_downgrade'] = true
 

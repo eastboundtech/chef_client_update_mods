@@ -1,8 +1,0 @@
-name 'chef_client_update_mods'
-maintainer 'Tim Wright'
-maintainer_email 'tim@eastbound.io'
-license 'Apache-2.0'
-description 'modifies public chef recipe'
-version '0.1.0'
-chef_version '>= 13.6.4' if respond_to?(:chef_version)
-depends 'chef_client_updater'
