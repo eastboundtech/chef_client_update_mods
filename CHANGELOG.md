@@ -1,5 +1,5 @@
 ##0.1.2
-Put depends on public recipe back in metadata
+Put depends on public recipe back in metadata 
 
 
 ## 0.1.0
