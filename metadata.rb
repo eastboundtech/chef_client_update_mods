@@ -4,7 +4,7 @@ maintainer_email 'tim@eastbound.io'
 license 'All Rights Reserved'
 description 'Installs/Configures chef_client_update_mods'
 long_description 'Installs/Configures chef_client_update_mods'
-version '0.1.3'
+version '0.2.0'
 chef_version '>= 12.14' if respond_to?(:chef_version)
 depends 'chef_client_updater'
 

@@ -1,3 +1,7 @@
+## 0.2.0
+
+- Use chef-client 14.10.9
+
 ##0.1.2
 Put depends on public recipe back in metadata 
 
