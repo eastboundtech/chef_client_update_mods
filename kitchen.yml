@@ -1,0 +1,28 @@
+---
+driver:
+  name: gce
+  project: scenic-block-221016
+  email: tim@eastbound.io
+  zone: us-east1-c
+  tags:
+    - dev
+    - test-kitchen
+
+transport:
+  username: ebt
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: windows-2012-r2-dc
+    driver:
+      image_project: windows-cloud
+      image_family: windows-2012-r2
+      disk_size: 50
+
+suites:
+  - name: default
+    run_list:
+      - recipe[chef_client_update_mods::default]
+    attributes:
